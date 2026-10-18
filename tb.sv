@@ -2,7 +2,6 @@
 `include "transaction_class.sv"
 `include "fifo.sv"
 
-// STILL A WIP.
 program tb(fifo_int.TB testbench);
     fifo_transaction t;
     logic[7: 0] golden_queue[$];
